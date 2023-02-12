@@ -13,6 +13,13 @@
         android:theme="@style/Theme.Fragments"
         tools:targetApi="31">
         <activity
+            android:name=".FragmentOne"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".CSMFragment"
             android:exported="false">
             <meta-data
